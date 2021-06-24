@@ -5,4 +5,9 @@ public class DontNeedBattery implements BatteryBehavior {
     public void turnOn() {
         System.out.println("I don't need battery");
     }
+
+    @Override
+    public void turnOff()  {
+        System.out.println("I don't need battery");
+    }
 }
